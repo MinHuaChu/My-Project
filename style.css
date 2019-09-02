@@ -17,19 +17,19 @@ body {
   height: 300px;
 }
 
+#box nav {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px 0;
+  text-align: left;
+  background-color: white;
+}
+
 .logo {
   width: 15%;
 }
 
 .link {
   float: right;
-}
-
-nav {
-  width: 80%;
-  margin: 0 auto;
-  padding: 50px 0;
-  text-align: left;
-  background-color: aquamarine;
 }
 /*# sourceMappingURL=style.css.map */
