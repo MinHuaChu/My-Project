@@ -8,21 +8,11 @@
   font-family: 微軟正黑體;
 }
 
-body {
-  background-color: skyblue;
-}
-
-#box {
-  background-color: #f3dc58;
-  height: 300px;
-}
-
 #box nav {
-  width: 80%;
   margin: 0 auto;
-  padding: 80px 20px 0 0;
+  padding: 80px 10px 40px 50px;
   text-align: left;
-  background-color: white;
+  background-color: wheat;
 }
 
 .logo {
@@ -40,5 +30,19 @@ body {
   margin: 0 10px;
   padding: 10px 20px;
   color: white;
+}
+
+#banner {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://images.pexels.com/photos/122588/pexels-photo-122588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+}
+
+footer {
+  background-color: wheat;
+  height: 20vh;
+  text-align: center;
+  line-height: 150px;
 }
 /*# sourceMappingURL=style.css.map */
