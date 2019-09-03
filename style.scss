@@ -10,14 +10,17 @@ body{
     background-color: skyblue;
 }
 
+// 首頁
+
+// * logo與導覽列區塊
 #box{
-    background-color: plum;
+    background-color:rgb(243, 220, 88);
     height: 300px;
 
     nav{
         width: 80%;
-        margin: 20px auto;
-        padding: 20px 0;
+        margin: 0 auto;
+        padding: 80px 20px 0 0;
         text-align: left;
         background-color:white;
     }
@@ -29,6 +32,24 @@ body{
 
 .link{
     float:right;
+    margin: 20px 0 0 0;
 
 }
+
+.link a{
+    text-decoration: none;
+    background-color: brown;
+    margin: 0 10px;
+    padding: 10px 20px;
+    color: white;
+}
+
+// * 頁尾
+
+
+// 關於佳源
+// 營業項目
+// 購買須知
+// 提供服務
+// 聯絡我們
 
