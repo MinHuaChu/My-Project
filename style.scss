@@ -116,29 +116,35 @@ section a{
 
 // 購物指南
 #notice{
-    height: 700px;
+    height: 900px;
     background-color: #BFA588;
     padding-top:100px; 
     a{
+        width: 160px;
         margin: 0 auto;
+        display: block;
+        text-align: center;
     }
 }
 
 #big{
-    width: 500px;
+    width: 850px;
+    margin: 0 auto 70px auto;
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-gap: 20px;
+    grid-gap: 250px;
     
     #notice-A{
         width: 300px;
         text-align: center;
         p{
             width: 300px;
+            margin-top:30px;
         }
         #AAA{
             width: 300px;
             height: 300px;
+            margin-bottom:30px; 
             background-color: #6B8238;
         }
     }
@@ -148,10 +154,12 @@ section a{
         text-align: center;
         p{
             width: 300px;
+            margin-top:30px;
         }
         #BBB{
         width: 300px;
         height: 300px;
+        margin-bottom:30px;
         background-color: #6B8238;
         }
     }
@@ -180,6 +188,35 @@ section a{
     width: 300px;
     height: 300px;
     background-color: #6B8238;
+    }
+}
+
+// 提供服務
+#server{
+    height: 700px;
+    background-color: #BFA588;
+    padding-top:100px; 
+}
+
+// 聯絡我們
+#contact{
+    height: 700px;
+    background-color: #BFA588;
+    padding-top:100px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 50px;
+
+    #contact-box{
+        width: 400px;
+        height: 400px;
+        background-color: #6B8238;
+        margin-left: 150px;
+    }
+    
+    p{
+        width: 500px;
+        height: 400px;
     }
 }
 
