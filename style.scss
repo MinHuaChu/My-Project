@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 0px solid #000000;
+    border:1px solid rgba(0,0,0,1);
     font-family: 微軟正黑體;
 }
 
@@ -15,7 +15,7 @@
         margin: 0 auto;
         padding: 80px 10px 40px 50px;
         text-align: left;
-        background-color:wheat;
+        background-color:#552723;
 }
 
 .logo{
@@ -25,28 +25,168 @@
 .link{
     float:right;
     margin: 20px 0 0 0;
+    width: 700px;
 
 }
 
 .link a{
     text-decoration: none;
-    background-color: brown;
-    margin: 0 10px;
-    padding: 10px 20px;
-    color: white;
+    background-color: #BFA588;
+    margin: 0 12px;
+    padding: 10px 25px;
+    color: #552723;
+    border-radius: 5px;
+    font-size: 17px;
 }
 
 // banner 橫幅
 #banner{
-    height: 100vh;
-    width: 100vw;
-    background-image: url("https://images.pexels.com/photos/122588/pexels-photo-122588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-size: cover;
+    height: 700px;
+    // width: 100vw;
+    // background-image: url("https://images.pexels.com/photos/122588/pexels-photo-122588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-color: #BFA588;
+    padding-top:100px; 
+}
+
+#banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 150px;
+}
+
+#text-box{
+    margin: 0 0 0 100px;
+    width: 600px;
+    height: 400px;
+}
+
+#color-box{
+    width: 400px;
+    height: 400px;
+    background-color: #6B8238;
+}
+
+h1{
+    width: 600px;
+    color: #552723;
+    font-size: 48px;
+    margin-bottom: 30px;
+    // margin-left: 100px;
+}
+p{
+    width: 500px;
+    font-size: 20px;
+    color: #552723;
+    margin-bottom: 70px;
+    // margin-left: 100px;
+}
+
+section a{
+    font-size: 28px;
+    color: #552723;
+    border: 0px solid #000;
+    border-radius: 100px;
+    background-color:#6B8238;
+    padding: 10px 20px;
+    // margin: 0 0 0 100px;
+    text-decoration: none;
+}
+
+// about 關於佳源
+#about{
+    height: 700px;
+    background-color: #BFA588;
+    padding-top:100px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 50px;
+}
+
+#about-box{
+    width: 400px;
+    height: 400px;
+    background-color: #6B8238;
+    margin-left: 150px;
+}
+
+#about p{
+    width: 500px;
+    height: 400px;
+}
+
+// 購物指南
+#notice{
+    height: 700px;
+    background-color: #BFA588;
+    padding-top:100px; 
+    a{
+        margin: 0 auto;
+    }
+}
+
+#big{
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 20px;
+    
+    #notice-A{
+        width: 300px;
+        text-align: center;
+        p{
+            width: 300px;
+        }
+        #AAA{
+            width: 300px;
+            height: 300px;
+            background-color: #6B8238;
+        }
+    }
+    
+    #notice-B{
+        width: 300px;
+        text-align: center;
+        p{
+            width: 300px;
+        }
+        #BBB{
+        width: 300px;
+        height: 300px;
+        background-color: #6B8238;
+        }
+    }
+}
+
+#notice-A{
+    width: 300px;
+    text-align: center;
+    p{
+        width: 300px;
+    }
+    #AAA{
+        width: 300px;
+        height: 300px;
+        background-color: #6B8238;
+    }
+}
+
+#notice-B{
+    width: 300px;
+    text-align: center;
+    p{
+        width: 300px;
+    }
+    #BBB{
+    width: 300px;
+    height: 300px;
+    background-color: #6B8238;
+    }
 }
 
 // * 頁尾
 footer{
-    background-color: wheat;
+    background-color: #552723;
+    color: #BFA588;
     height: 20vh;
     text-align: center;
     line-height: 150px;

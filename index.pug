@@ -8,10 +8,30 @@ html(lang="zh")
         link(rel="stylesheet", href="style.css")
     body
         include nav.pug
-
+        //- banner區塊
         section(id="banner")
+            div(id="text-box")
+                h1 您正在尋找客製且有質感的原木傢俱嗎？
+                p 佳源提供了原木傢俱客製化的服務，只要您來電詢問，我們會有專員為您服務，量身打造您需要的商品。此外，佳源也提供棧板買賣、貨運裝箱、木材批發等營業項目。
+                a(href="product.html") 前往購買
+            div(id="color-box")
 
+        //- 關於佳源
         section(id="about")
+            div(id="about-box")
+            p 佳源提供了原木傢俱客製化的服務，只要您來電詢問，我們會有專員為您服務，量身打造您需要的商品。此外，佳源也提供棧板買賣、貨運裝箱、木材批發等營業項目。Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia ut earum iure blanditiis molestias, placeat obcaecati ipsum, harum officiis magni odit exercitationem possimus. Eligendi quam minus delectus atque doloribus maxime!
 
-        footer Copyright © 2019 wood
+        //- 購物指南
+        section(id="notice")
+            div(id=big)
+                div(id="notice-A")
+                    div(id="AAA")
+                    h2 購物流程
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nam tenetur .
+                div(id="notice-B")
+                    div(id="BBB")
+                    h2 購物須知
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nam tenetur .
+            a(href="notice.html")
+        include footer 
         
