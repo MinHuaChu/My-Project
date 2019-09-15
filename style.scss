@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border:1px solid rgba(0,0,0,1);
+    border:0px solid rgba(0,0,0,1);
     font-family: 微軟正黑體;
 }
+
+////////////index.pug
 
 // 導覽列區塊
 nav{
@@ -15,7 +17,7 @@ nav{
     .logo{
         width: 5%;
     }
-    .link{
+    #link-index{
         float:right;
         margin: 20px 0 0 0;
         width: 700px;
@@ -200,7 +202,7 @@ header{
 }
     
 
-// // * 頁尾
+// * 頁尾
 footer{
     background-color: #3C2212;
     color: #BFA588;
@@ -209,9 +211,109 @@ footer{
     line-height: 150px;
 }
 
+////////////product.pug
 
-// // 關於佳源
-// // 營業項目
+// 頁首
+#product-header{
+    padding-top: 100px;
+    background-color: #FFDFBA;
+    height: 100vh;
+}
+
+nav{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #FFDFBA;
+    .logo{
+        width: 5%;
+    }
+    #link-product{
+        float:right;
+        margin: 20px 0 0 0;
+        width: 550px;
+        a{
+            text-decoration: none;
+            margin: 0 12px;
+            padding: 10px 25px;
+            color: #99633C;
+            font-size: 17px;
+        }
+    }
+}
+
+#product-1{
+    height: 180vh;
+    background-color: #E1AC73;
+    padding-top:180px; 
+}
+
+#product-2{
+    height: 100vh;
+    background-color: #BF8752;
+    padding-top:180px; 
+}
+
+#product-3{
+    height: 100vh;
+    background-color: #99633C;
+    padding-top: 180px;
+}
+
+////////////notice.pug
+
+// 頁首
+
+#notice-header{
+    padding-top: 100px;
+    background-color: #FFDFBA;
+    height: 100vh;
+}
+
+nav{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #FFDFBA;
+    .logo{
+        width: 5%;
+    }
+    #link-notice{
+        float:right;
+        margin: 20px 0 0 0;
+        width: 300px;
+        a{
+            text-decoration: none;
+            margin: 0 12px;
+            padding: 10px 25px;
+            color: #99633C;
+            font-size: 17px;
+        }
+    }
+}
+
+#notice-1{
+    height: 100vh;
+    background-color: #E1AC73;
+    padding-top:180px; 
+}
+
+#notice-2{
+    height: 100vh;
+    background-color: #99633C;
+    padding-top:180px; 
+}
+
+////////////contact.pug
+
+// 聯絡我們
+
+
+
+
+
+
+
 // // 購買須知
 // // 提供服務
 // // 聯絡我們
