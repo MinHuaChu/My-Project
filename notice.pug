@@ -6,9 +6,21 @@ html(lang="zh")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         title 佳源木業｜購買須知
         link(rel="stylesheet", href="style.css")
-    body
-        include nav.pug
-
-        h1 ddd
+    body      
+        //- header
+        section(id="notice-header")
+            //- 導覽列
+            nav
+                a(href="index.html")
+                    img(src="img/logo.png", alt="佳源木業 logo",class="logo") 
+                div(id="link-notice")
+                        a(href="#notice-1") 購買流程
+                        a(href="#notice-2") 購買須知
+            
+        //- 購買流程
+        section(id="notice-1")
+        
+        //- 購買須知
+        section(id="notice-2")
 
         include footer 
