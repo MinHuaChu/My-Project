@@ -39,12 +39,12 @@ header {
   height: 100vh;
 }
 
-.container1 {
+#container1 {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  grid-gap: 95;
+  grid-gap: 95px;
   width: 1100px;
   margin: 150px auto;
 }
@@ -86,7 +86,7 @@ header {
   padding-top: 180px;
 }
 
-#containter2 {
+#container2 {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
