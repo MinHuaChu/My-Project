@@ -309,4 +309,53 @@ nav #link-notice a {
   background-color: #99633C;
   padding-top: 180px;
 }
+
+#service-header {
+  padding-top: 100px;
+  background-color: #FFDFBA;
+  height: 100vh;
+}
+
+nav {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #FFDFBA;
+}
+
+nav .logo {
+  width: 5%;
+}
+
+nav #link-service {
+  float: right;
+  margin: 20px 0 0 0;
+  width: 300px;
+}
+
+nav #link-service a {
+  text-decoration: none;
+  margin: 0 12px;
+  padding: 10px 25px;
+  color: #99633C;
+  font-size: 17px;
+}
+
+#service-1 {
+  height: 100vh;
+  background-color: #E1AC73;
+  padding-top: 180px;
+}
+
+#service-2 {
+  height: 100vh;
+  background-color: #BF8752;
+  padding-top: 180px;
+}
+
+#service-3 {
+  height: 100vh;
+  background-color: #99633C;
+  padding-top: 180px;
+}
 /*# sourceMappingURL=style.css.map */

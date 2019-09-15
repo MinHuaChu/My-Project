@@ -7,8 +7,24 @@ html(lang="zh")
         title 佳源木業｜提供服務
         link(rel="stylesheet", href="style.css")
     body
-        include nav.pug
+        //- header
+        section(id="service-header")
+            //- 導覽列
+            nav
+                a(href="index.html")
+                    img(src="img/logo.png", alt="佳源木業 logo",class="logo") 
+                div(id="link-service")
+                        a(href="#service-1") 組裝
+                        a(href="#service-2") 運送
+                        a(href="#service-3") 售後
+            
+        //- 組裝
+        section(id="service-1")
+        
+        //- 運送
+        section(id="service-2")
 
-        h1 sss
+        //- 售後
+        section(id="service-3")
 
         include footer 
