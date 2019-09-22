@@ -140,12 +140,11 @@ header{
             margin-top:30px;
             color: #F8C799;
         }
-        #AAA{
+        img{
             width: 300px;
             height: 300px;
-            margin-bottom:30px; 
-            background-color: #F8C799;
         }
+
     }
     
     #notice-B{
@@ -170,6 +169,72 @@ header{
     height: 90vh;
     background-color: #99633C;
     padding-top:100px; 
+    a{
+        display:block;
+        width: 160px;
+        font-size: 28px;
+        color: #FFDFBA;
+        border: 0px solid #000;
+        border-radius: 10px;
+        background-color:#653810;
+        padding: 10px 20px;
+        text-decoration: none;
+        text-align: center;
+        margin: auto;;
+    }
+}
+
+#big2{
+    width: 1100px;
+    margin: 0 auto 70px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 100px;
+    #service-C{
+        width: 300px;
+        text-align: center;
+        p{
+            width: 300px;
+            margin-top:30px;
+            color: #F8C799;
+        }
+        #CCC{
+            width: 300px;
+            height: 300px;
+            margin-bottom:30px; 
+            background-color: #F8C799;
+        }
+    }  
+    #service-D{
+        width: 300px;
+        text-align: center;
+        p{
+            width: 300px;
+            margin-top:30px;
+            color: #F8C799;
+        }
+        #DDD{
+        width: 300px;
+        height: 300px;
+        margin-bottom:30px;
+        background-color: #F8C799;
+        }
+    }
+    #service-E{
+        width: 300px;
+        text-align: center;
+        p{
+            width: 300px;
+            margin-top:30px;
+            color: #F8C799;
+        }
+        #EEE{
+        width: 300px;
+        height: 300px;
+        margin-bottom:30px;
+        background-color: #F8C799;
+        }
+    }
 }
 
 // // 聯絡我們
@@ -336,26 +401,95 @@ nav{
         }
     }
 }
-
+// 組裝
 #service-1{
-    height: 100vh;
+    height: 90vh;
     background-color: #E1AC73;
     padding-top:180px; 
 }
 
+#container4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:95px;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.box4{
+    #service-box1{
+        width: 400px;
+        height: 400px;
+        background-color: #653810;
+    }
+    p{
+        font-size: 20px;
+        width: 500px;
+        height: 400px;
+        color: #653810;
+    }
+
+}
+
+// 運送
 #service-2{
-    height: 100vh;
+    height: 90vh;
     background-color: #BF8752;
     padding-top:180px; 
 }
 
+#container5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:95px;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.box5{
+    #service-box2{
+        width: 400px;
+        height: 400px;
+        background-color: #FFDFBA;
+    }
+    p{
+        font-size: 20px;
+        width: 500px;
+        height: 400px;
+        color: #FFDFBA;
+    }
+
+}
+
+// 售後
 #service-3{
-    height: 100vh;
+    height: 90vh;
     background-color: #99633C;
     padding-top:180px; 
 }
 
+#container6{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:95px;
+    width: 1100px;
+    margin: 0 auto;
+}
 
+.box6{
+    #service-box3{
+        width: 400px;
+        height: 400px;
+        background-color: #E1AC73;
+    }
+    p{
+        font-size: 20px;
+        width: 500px;
+        height: 400px;
+        color: #E1AC73;
+    }
+
+}
 
 
 
