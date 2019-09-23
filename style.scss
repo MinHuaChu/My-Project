@@ -10,21 +10,21 @@
 
 // 導覽列區塊
 nav{
-    width: 80%;
+    // width: 100%;
     margin: 0 auto;
     text-align: left;
     background-color: #FFDFBA;
     .logo{
-        width: 5%;
+        width: 8%;
     }
     #link-index{
         float:right;
         margin: 20px 0 0 0;
-        width: 700px;
+        width: 752px;
         a{
             text-decoration: none;
-            margin: 0 12px;
-            padding: 10px 25px;
+            margin: 0 16px;
+            padding: 8px 24px;
             color: #99633C;
             font-size: 17px;
         }
@@ -32,14 +32,14 @@ nav{
 }
 // 頁首區塊
 header{
-    padding-top: 100px;
+    padding-top: 96px;
     background-color: #FFDFBA;
     height: 100vh;
 }
 #container1{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap:95px;
+    grid-gap:96px;
     width: 1100px;
     margin: 150px auto;
 }
@@ -141,7 +141,7 @@ header{
             color: #F8C799;
         }
         img{
-            width: 90%;
+            width: 100%;
         }
     }
     
@@ -154,8 +154,7 @@ header{
             color: #F8C799;
         }
         img{
-            width: 90%;
-            // height: 80%;
+            width: 100%;
         }
     }
 }
@@ -196,14 +195,8 @@ header{
             margin-top:30px;
             color: #F8C799;
         }
-        #CCC{
-            width: 300px;
-            height: 300px;
-            margin-bottom:30px; 
-            background-color: #F8C799;
-        }
         img{
-            height: 60%;
+            width: 100%;
         }
     }  
     #service-D{
@@ -214,14 +207,8 @@ header{
             margin-top:30px;
             color: #F8C799;
         }
-        #DDD{
-        width: 300px;
-        height: 300px;
-        margin-bottom:30px;
-        background-color: #F8C799;
-        }
         img{
-            height: 60%;
+            width: 100%;
         }
     }
     #service-E{
@@ -232,14 +219,8 @@ header{
             margin-top:30px;
             color: #F8C799;
         }
-        #EEE{
-        width: 300px;
-        height: 300px;
-        margin-bottom:30px;
-        background-color: #F8C799;
-        }
         img{
-            height: 60%;
+            width: 100%;
         }
     }
 }
