@@ -39,22 +39,22 @@ header{
 #container1{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap:96px;
-    width: 1100px;
-    margin: 150px auto;
+    width: 1200px;
+    margin: 80px auto;
 }
 .box1{
     h1{
-        width: 600px;
+        width: 580px;
         color: #99633C;
         font-size: 48px;
-        margin-bottom: 30px;
+        margin-bottom:24px;
+        margin-top: 64px;
     }
     p{
         width: 500px;
         font-size: 20px;
         color: #99633C;
-        margin-bottom: 70px;
+        margin-bottom: 64px;
     }
     a{
         width: 160px;
@@ -66,40 +66,36 @@ header{
         padding: 10px 20px;
         text-decoration: none;
     }
-}
-    // 圖片（先用色塊替代）
-#color{
-    width: 400px;
-    height: 400px;
-    background-color: #653810;
+    img{
+        width: 680px;
+    }
 }
 
 // about 關於佳源
 #about{
     height: 90vh;
-    background-color: #E1AC73;
+    background-color: #F8C799;
     padding-top:180px; 
 }
 
 #container2{
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-gap:95px;
-    width: 1100px;
+    grid-gap: 100px;
+    width: 1300px;
     margin: 0 auto;
 
 }
 .box2{
-    #about-box{
-        width: 400px;
-        height: 400px;
-        background-color: #7E4E27;
+    img{
+        width: 680px;
     }
     p{
         font-size: 20px;
         width: 500px;
-        height: 400px;
+        height: 365px;
         color: #99633C;
+        margin-top: 40px;
     }
 
 }
@@ -241,16 +237,14 @@ header{
 }
 
 .box3{
-    #contact-box{
-        width: 400px;
-        height: 400px;
-        background-color: #FFDFBA;
-    }
     p{
         font-size: 20px;
         width: 500px;
         height: 400px;
         color: #FFDFBA;
+    }
+    img{
+        width: 600px;
     }
 }
     
