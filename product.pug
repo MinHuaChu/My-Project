@@ -7,7 +7,7 @@ html(lang="zh")
         title 佳源木業｜營業項目
         link(rel="stylesheet", href="style.css")
     body
-        //- header
+        //- 導入頁面
         section(id="product-header")
             //- 導覽列
             nav
@@ -17,16 +17,18 @@ html(lang="zh")
                         a(href="#product-1") 商業/傢俱/其他
                         a(href="#product-2") 木材/木箱/棧板
                         a(href="#product-3") 商品實拍
+            //- 頁首內容
             div(id="header-box")
-                img(src="", alt="")
-                p
+                img(src="img/product.png", alt="")
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat architecto ipsam deleniti doloribus et debitis? Incidunt labore omnis placeat exercitationem necessitatibus cum ut, velit cumque! Sint quae amet facilis nostrum!
+        
         //- 商業/傢俱/其他
-        section(id="product-1")
+        include product-1.html
         
         //- 木材/木箱/棧板
-        section(id="product-2")
+        include product-2.html
 
         //- 商品實拍
-        section(id="product-3")
+        include product-3.html
 
         include footer 

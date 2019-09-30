@@ -7,6 +7,7 @@ html(lang="zh")
         title 佳源木業｜首頁
         link(rel="stylesheet", href="style.css")
     body
+        //- 導入頁面
         header
             //- 導覽列
             nav
@@ -18,7 +19,7 @@ html(lang="zh")
                     a(href="#notice") 購物指南
                     a(href="#service") 提供服務
                     a(href="#contact") 聯絡我們
-            //- header
+            //- 頁首內容
             div(id="container1")
                 div(class="box1")
                     h1 您正在尋找客製化且有質感的原木傢俱嗎？
@@ -26,6 +27,7 @@ html(lang="zh")
                     a(href="product.html") 前往購買
                 div(class="box1")
                     img(src="img/index.png")
+
         //- 關於佳源
         section(id="about")
             div(id="container2")
@@ -72,8 +74,7 @@ html(lang="zh")
                 div(class="box3")
                     img(src="img/contact.png")
 
+        //- 頁尾
+        include footer.pug
 
-        include footer 
-
-        script(src="")
         

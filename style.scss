@@ -6,15 +6,18 @@
     font-family: 微軟正黑體;
 }
 
-////////////index.pug
 
 
-// 頁首區塊
+
+//------index.pug
+
+// 導入頁首
 header{
     padding-top: 96px;
     background-color: #FFDFBA;
     height: 100vh;
-    // 導覽列區塊
+
+    // 導覽列
     nav{
         width: 86%;
         margin: 0 auto;
@@ -35,77 +38,108 @@ header{
             }
         }
     }
-}
-#container1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 1200px;
-    margin: 80px auto;
-}
-.box1{
-    h1{
-        width: 580px;
-        color: #99633C;
-        font-size: 48px;
-        margin-bottom:24px;
-        margin-top: 64px;
-    }
-    p{
-        width: 500px;
-        font-size: 20px;
-        color: #99633C;
-        margin-bottom: 64px;
-    }
-    a{
-        width: 160px;
-        font-size: 28px;
-        color: #FFDFBA;
-        border: 0px solid #000;
-        border-radius: 10px;
-        background-color:#653810;
-        padding: 10px 20px;
-        text-decoration: none;
-    }
-    img{
-        width: 680px;
+    // 頁首內容
+    #container1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 1200px;
+        margin: 80px auto;
+        .box1{
+            h1{
+                width: 580px;
+                color: #99633C;
+                font-size: 48px;
+                margin-bottom:24px;
+                margin-top: 64px;
+            }
+            p{
+                width: 500px;
+                font-size: 20px;
+                color: #99633C;
+                margin-bottom: 64px;
+            }
+            a{
+                width: 160px;
+                font-size: 28px;
+                color: #FFDFBA;
+                border: 0px solid #000;
+                border-radius: 10px;
+                background-color:#653810;
+                padding: 10px 20px;
+                text-decoration: none;
+            }
+            img{
+                width: 680px;
+            }
+        }
     }
 }
 
-// about 關於佳源
+// 關於佳源 about
 #about{
     height: 90vh;
     background-color: #F8C799;
     padding-top:180px; 
-}
-
-#container2{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-gap: 100px;
-    width: 1300px;
-    margin: 0 auto;
-
-}
-.box2{
-    img{
-        width: 680px;
+    #container2{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 100px;
+        width: 1300px;
+        margin: 0 auto;
+        .box2{
+            img{
+                width: 680px;
+            }
+            p{
+                font-size: 20px;
+                width: 500px;
+                height: 365px;
+                color: #99633C;
+                margin-top: 40px;
+            }
+        }
     }
-    p{
-        font-size: 20px;
-        width: 500px;
-        height: 365px;
-        color: #99633C;
-        margin-top: 40px;
-    }
-
 }
 
-
-// // 購物指南
+// 購物指南 notice
 #notice{
     height: 90vh;
     background-color: #BF8752;
     padding-top:100px; 
+    #big{
+        width: 850px;
+        margin: 0 auto 70px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 250px;
+        // 購物流程區塊
+        #notice-A{
+            width: 300px;
+            text-align: center;
+            p{
+                width: 300px;
+                margin-top:30px;
+                color: #F8C799;
+            }
+            img{
+                width: 100%;
+            }
+        }
+        // 購物須知區塊
+        #notice-B{
+            width: 300px;
+            text-align: center;
+            p{
+                width: 300px;
+                margin-top:30px;
+                color: #F8C799;
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+    // 購物指南-按鈕
     a{
         display:block;
         width: 160px;
@@ -121,45 +155,58 @@ header{
     }
 }
 
-#big{
-    width: 850px;
-    margin: 0 auto 70px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-gap: 250px;
-    
-    #notice-A{
-        width: 300px;
-        text-align: center;
-        p{
-            width: 300px;
-            margin-top:30px;
-            color: #F8C799;
-        }
-        img{
-            width: 100%;
-        }
-    }
-    
-    #notice-B{
-        width: 300px;
-        text-align: center;
-        p{
-            width: 300px;
-            margin-top:30px;
-            color: #F8C799;
-        }
-        img{
-            width: 100%;
-        }
-    }
-}
-
-// // 提供服務
+// 提供服務 service
 #service{
     height: 90vh;
     background-color: #99633C;
     padding-top:100px; 
+    #big2{
+        width: 1100px;
+        margin: 0 auto 70px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 100px;
+        // 組裝區塊
+        #service-C{
+            width: 300px;
+            text-align: center;
+            p{
+                width: 300px;
+                margin-top:30px;
+                color: #F8C799;
+            }
+            img{
+                width: 100%;
+            }
+        }  
+        // 運送區塊
+        #service-D{
+            width: 300px;
+            text-align: center;
+            p{
+                width: 300px;
+                margin-top:30px;
+                color: #F8C799;
+            }
+            img{
+                width: 100%;
+            }
+        }
+        // 售後區塊
+        #service-E{
+            width: 300px;
+            text-align: center;
+            p{
+                width: 300px;
+                margin-top:30px;
+                color: #F8C799;
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+    // 提供服務-按鈕
     a{
         display:block;
         width: 160px;
@@ -173,83 +220,293 @@ header{
         text-align: center;
         margin: auto;;
     }
-    
 }
 
-#big2{
-    width: 1100px;
-    margin: 0 auto 70px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 100px;
-    
-    #service-C{
-        width: 300px;
-        text-align: center;
-        p{
-            width: 300px;
-            margin-top:30px;
-            color: #F8C799;
-        }
-        img{
-            width: 100%;
-        }
-    }  
-    #service-D{
-        width: 300px;
-        text-align: center;
-        p{
-            width: 300px;
-            margin-top:30px;
-            color: #F8C799;
-        }
-        img{
-            width: 100%;
-        }
-    }
-    #service-E{
-        width: 300px;
-        text-align: center;
-        p{
-            width: 300px;
-            margin-top:30px;
-            color: #F8C799;
-        }
-        img{
-            width: 100%;
-        }
-    }
-}
-
-// // 聯絡我們
+// 聯絡我們
 #contact{
     height: 90vh;
     background-color: #653810;
     padding-top:180px; 
-}
-
-#container3{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-gap:95px;
-    width: 1100px;
-    margin: 0 auto;
-}
-
-.box3{
-    p{
-        font-size: 20px;
-        width: 500px;
-        height: 400px;
-        color: #FFDFBA;
-    }
-    img{
-        width: 600px;
+    #container3{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap:95px;
+        width: 1100px;
+        margin: 0 auto;
+        .box3{
+            p{
+                font-size: 20px;
+                width: 500px;
+                height: 400px;
+                color: #FFDFBA;
+            }
+            img{
+                width: 600px;
+            }
+        }
     }
 }
-    
 
-// * 頁尾
+
+
+
+//------product.pug
+
+// 頁首區塊
+#product-header{
+    padding-top: 100px;
+    background-color: #FFDFBA;
+    height: 100vh;
+    // 導覽列
+    nav{
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+        background-color: #FFDFBA;
+        .logo{
+            width: 5%;
+        }
+        #link-product{
+            float:right;
+            margin: 20px 0 0 0;
+            width: 550px;
+            a{
+                text-decoration: none;
+                margin: 0 12px;
+                padding: 10px 25px;
+                color: #99633C;
+                font-size: 17px;
+            }
+        }
+    }
+    // 頁首內容
+    #header-box{
+        img{
+            width: 30%;
+            display: block;
+            margin: 80px auto 40px auto;
+        }
+        p{
+            width: 30%;
+            text-align: center;
+            margin: auto;
+        }
+    }
+}
+
+// 商業/傢俱/其他
+#product-1{
+    height: 180vh;
+    background-color: #E1AC73;
+    padding-top:180px; 
+    .slider {
+        margin: 20px 0;
+      }
+      
+    .slider button {
+        display: none !important;
+      }
+}
+
+// 木材/木箱/棧板
+#product-2{
+    height: 100vh;
+    background-color: #BF8752;
+    padding-top:180px; 
+    .slider2 {
+        margin: 20px 0;
+      }
+      
+    .slider2 button {
+        display: none !important;
+      }
+}
+
+// 商品實拍
+#product-3{
+    height: 100vh;
+    background-color: #99633C;
+    padding-top: 180px;
+    .slider {
+        margin: 20px 0;
+      }
+      
+    .slider button {
+        display: none !important;
+      }
+}
+
+
+
+
+//------notice.pug
+
+// 頁首區塊
+#notice-header{
+    padding-top: 100px;
+    background-color: #FFDFBA;
+    height: 100vh;
+    // 導覽列
+    nav{
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+        background-color: #FFDFBA;
+        .logo{
+            width: 5%;
+        }
+        #link-notice{
+            float:right;
+            margin: 20px 0 0 0;
+            width: 300px;
+            a{
+                text-decoration: none;
+                margin: 0 12px;
+                padding: 10px 25px;
+                color: #99633C;
+                font-size: 17px;
+            }
+        }
+    }
+}
+
+// 購買流程
+#notice-1{
+    height: 100vh;
+    background-color: #E1AC73;
+    padding-top:180px; 
+}
+// 購買須知
+#notice-2{
+    height: 100vh;
+    background-color: #99633C;
+    padding-top:180px; 
+}
+
+
+
+
+//------service.pug
+
+// 頁首區塊
+#service-header{
+    padding-top: 100px;
+    background-color: #FFDFBA;
+    height: 100vh;
+    nav{
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+        background-color: #FFDFBA;
+        .logo{
+            width: 5%;
+        }
+        #link-service{
+            float:right;
+            margin: 20px 0 0 0;
+            width: 300px;
+            a{
+                text-decoration: none;
+                margin: 0 12px;
+                padding: 10px 25px;
+                color: #99633C;
+                font-size: 17px;
+            }
+        }
+    }
+}
+
+// 組裝
+#service-1{
+    height: 90vh;
+    background-color: #E1AC73;
+    padding-top:180px; 
+    #container4{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:95px;
+        width: 1100px;
+        margin: 0 auto;
+        .box4{
+            #service-box1{
+                width: 400px;
+                height: 400px;
+                background-color: #653810;
+            }
+            p{
+                font-size: 20px;
+                width: 500px;
+                height: 400px;
+                color: #653810;
+            }
+        
+        }
+    }
+}
+
+// 運送
+#service-2{
+    height: 90vh;
+    background-color: #BF8752;
+    padding-top:180px; 
+    #container5{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:95px;
+        width: 1100px;
+        margin: 0 auto;
+        .box5{
+            #service-box2{
+                width: 400px;
+                height: 400px;
+                background-color: #FFDFBA;
+            }
+            p{
+                font-size: 20px;
+                width: 500px;
+                height: 400px;
+                color: #FFDFBA;
+            }
+        
+        }
+    }
+}
+
+// 售後
+#service-3{
+    height: 90vh;
+    background-color: #99633C;
+    padding-top:180px; 
+    #container6{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:95px;
+        width: 1100px;
+        margin: 0 auto;
+        .box6{
+            #service-box3{
+                width: 400px;
+                height: 400px;
+                background-color: #E1AC73;
+            }
+            p{
+                font-size: 20px;
+                width: 500px;
+                height: 400px;
+                color: #E1AC73;
+            }
+        
+        }
+    }
+}
+
+
+
+
+
+//------footer.pug 
+
+// 頁尾
 footer{
     background-color: #3C2212;
     color: #BFA588;
@@ -258,224 +515,5 @@ footer{
     line-height: 150px;
 }
 
-////////////product.pug
 
-// 頁首
-#product-header{
-    padding-top: 100px;
-    background-color: #FFDFBA;
-    height: 100vh;
-}
-
-nav{
-    width: 80%;
-    margin: 0 auto;
-    text-align: left;
-    background-color: #FFDFBA;
-    .logo{
-        width: 5%;
-    }
-    #link-product{
-        float:right;
-        margin: 20px 0 0 0;
-        width: 550px;
-        a{
-            text-decoration: none;
-            margin: 0 12px;
-            padding: 10px 25px;
-            color: #99633C;
-            font-size: 17px;
-        }
-    }
-}
-
-#product-1{
-    height: 180vh;
-    background-color: #E1AC73;
-    padding-top:180px; 
-}
-
-#product-2{
-    height: 100vh;
-    background-color: #BF8752;
-    padding-top:180px; 
-}
-
-#product-3{
-    height: 100vh;
-    background-color: #99633C;
-    padding-top: 180px;
-}
-
-////////////notice.pug
-
-// 頁首
-
-#notice-header{
-    padding-top: 100px;
-    background-color: #FFDFBA;
-    height: 100vh;
-}
-
-nav{
-    width: 80%;
-    margin: 0 auto;
-    text-align: left;
-    background-color: #FFDFBA;
-    .logo{
-        width: 5%;
-    }
-    #link-notice{
-        float:right;
-        margin: 20px 0 0 0;
-        width: 300px;
-        a{
-            text-decoration: none;
-            margin: 0 12px;
-            padding: 10px 25px;
-            color: #99633C;
-            font-size: 17px;
-        }
-    }
-}
-
-#notice-1{
-    height: 100vh;
-    background-color: #E1AC73;
-    padding-top:180px; 
-}
-
-#notice-2{
-    height: 100vh;
-    background-color: #99633C;
-    padding-top:180px; 
-}
-
-////////////contact.pug
-
-// 提供服務
-
-// 頁首
-#service-header{
-    padding-top: 100px;
-    background-color: #FFDFBA;
-    height: 100vh;
-}
-
-nav{
-    width: 80%;
-    margin: 0 auto;
-    text-align: left;
-    background-color: #FFDFBA;
-    .logo{
-        width: 5%;
-    }
-    #link-service{
-        float:right;
-        margin: 20px 0 0 0;
-        width: 300px;
-        a{
-            text-decoration: none;
-            margin: 0 12px;
-            padding: 10px 25px;
-            color: #99633C;
-            font-size: 17px;
-        }
-    }
-}
-// 組裝
-#service-1{
-    height: 90vh;
-    background-color: #E1AC73;
-    padding-top:180px; 
-}
-
-#container4{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:95px;
-    width: 1100px;
-    margin: 0 auto;
-}
-
-.box4{
-    #service-box1{
-        width: 400px;
-        height: 400px;
-        background-color: #653810;
-    }
-    p{
-        font-size: 20px;
-        width: 500px;
-        height: 400px;
-        color: #653810;
-    }
-
-}
-
-// 運送
-#service-2{
-    height: 90vh;
-    background-color: #BF8752;
-    padding-top:180px; 
-}
-
-#container5{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:95px;
-    width: 1100px;
-    margin: 0 auto;
-}
-
-.box5{
-    #service-box2{
-        width: 400px;
-        height: 400px;
-        background-color: #FFDFBA;
-    }
-    p{
-        font-size: 20px;
-        width: 500px;
-        height: 400px;
-        color: #FFDFBA;
-    }
-
-}
-
-// 售後
-#service-3{
-    height: 90vh;
-    background-color: #99633C;
-    padding-top:180px; 
-}
-
-#container6{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:95px;
-    width: 1100px;
-    margin: 0 auto;
-}
-
-.box6{
-    #service-box3{
-        width: 400px;
-        height: 400px;
-        background-color: #E1AC73;
-    }
-    p{
-        font-size: 20px;
-        width: 500px;
-        height: 400px;
-        color: #E1AC73;
-    }
-
-}
-
-
-
-// // 購買須知
-// // 提供服務
-// // 聯絡我們
 

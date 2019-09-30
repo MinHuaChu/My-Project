@@ -38,7 +38,7 @@ header nav #link-index a {
   font-size: 17px;
 }
 
-#container1 {
+header #container1 {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -47,7 +47,7 @@ header nav #link-index a {
   margin: 80px auto;
 }
 
-.box1 h1 {
+header #container1 .box1 h1 {
   width: 580px;
   color: #99633C;
   font-size: 48px;
@@ -55,14 +55,14 @@ header nav #link-index a {
   margin-top: 64px;
 }
 
-.box1 p {
+header #container1 .box1 p {
   width: 500px;
   font-size: 20px;
   color: #99633C;
   margin-bottom: 64px;
 }
 
-.box1 a {
+header #container1 .box1 a {
   width: 160px;
   font-size: 28px;
   color: #FFDFBA;
@@ -73,7 +73,7 @@ header nav #link-index a {
   text-decoration: none;
 }
 
-.box1 img {
+header #container1 .box1 img {
   width: 680px;
 }
 
@@ -83,7 +83,7 @@ header nav #link-index a {
   padding-top: 180px;
 }
 
-#container2 {
+#about #container2 {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -93,11 +93,11 @@ header nav #link-index a {
   margin: 0 auto;
 }
 
-.box2 img {
+#about #container2 .box2 img {
   width: 680px;
 }
 
-.box2 p {
+#about #container2 .box2 p {
   font-size: 20px;
   width: 500px;
   height: 365px;
@@ -109,6 +109,46 @@ header nav #link-index a {
   height: 90vh;
   background-color: #BF8752;
   padding-top: 100px;
+}
+
+#notice #big {
+  width: 850px;
+  margin: 0 auto 70px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 250px;
+}
+
+#notice #big #notice-A {
+  width: 300px;
+  text-align: center;
+}
+
+#notice #big #notice-A p {
+  width: 300px;
+  margin-top: 30px;
+  color: #F8C799;
+}
+
+#notice #big #notice-A img {
+  width: 100%;
+}
+
+#notice #big #notice-B {
+  width: 300px;
+  text-align: center;
+}
+
+#notice #big #notice-B p {
+  width: 300px;
+  margin-top: 30px;
+  color: #F8C799;
+}
+
+#notice #big #notice-B img {
+  width: 100%;
 }
 
 #notice a {
@@ -125,50 +165,65 @@ header nav #link-index a {
   margin: auto;
 }
 
-#big {
-  width: 850px;
-  margin: 0 auto 70px auto;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  grid-gap: 250px;
-}
-
-#big #notice-A {
-  width: 300px;
-  text-align: center;
-}
-
-#big #notice-A p {
-  width: 300px;
-  margin-top: 30px;
-  color: #F8C799;
-}
-
-#big #notice-A img {
-  width: 100%;
-}
-
-#big #notice-B {
-  width: 300px;
-  text-align: center;
-}
-
-#big #notice-B p {
-  width: 300px;
-  margin-top: 30px;
-  color: #F8C799;
-}
-
-#big #notice-B img {
-  width: 100%;
-}
-
 #service {
   height: 90vh;
   background-color: #99633C;
   padding-top: 100px;
+}
+
+#service #big2 {
+  width: 1100px;
+  margin: 0 auto 70px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 100px;
+}
+
+#service #big2 #service-C {
+  width: 300px;
+  text-align: center;
+}
+
+#service #big2 #service-C p {
+  width: 300px;
+  margin-top: 30px;
+  color: #F8C799;
+}
+
+#service #big2 #service-C img {
+  width: 100%;
+}
+
+#service #big2 #service-D {
+  width: 300px;
+  text-align: center;
+}
+
+#service #big2 #service-D p {
+  width: 300px;
+  margin-top: 30px;
+  color: #F8C799;
+}
+
+#service #big2 #service-D img {
+  width: 100%;
+}
+
+#service #big2 #service-E {
+  width: 300px;
+  text-align: center;
+}
+
+#service #big2 #service-E p {
+  width: 300px;
+  margin-top: 30px;
+  color: #F8C799;
+}
+
+#service #big2 #service-E img {
+  width: 100%;
 }
 
 #service a {
@@ -185,68 +240,13 @@ header nav #link-index a {
   margin: auto;
 }
 
-#big2 {
-  width: 1100px;
-  margin: 0 auto 70px auto;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 100px;
-}
-
-#big2 #service-C {
-  width: 300px;
-  text-align: center;
-}
-
-#big2 #service-C p {
-  width: 300px;
-  margin-top: 30px;
-  color: #F8C799;
-}
-
-#big2 #service-C img {
-  width: 100%;
-}
-
-#big2 #service-D {
-  width: 300px;
-  text-align: center;
-}
-
-#big2 #service-D p {
-  width: 300px;
-  margin-top: 30px;
-  color: #F8C799;
-}
-
-#big2 #service-D img {
-  width: 100%;
-}
-
-#big2 #service-E {
-  width: 300px;
-  text-align: center;
-}
-
-#big2 #service-E p {
-  width: 300px;
-  margin-top: 30px;
-  color: #F8C799;
-}
-
-#big2 #service-E img {
-  width: 100%;
-}
-
 #contact {
   height: 90vh;
   background-color: #653810;
   padding-top: 180px;
 }
 
-#container3 {
+#contact #container3 {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -256,23 +256,15 @@ header nav #link-index a {
   margin: 0 auto;
 }
 
-.box3 p {
+#contact #container3 .box3 p {
   font-size: 20px;
   width: 500px;
   height: 400px;
   color: #FFDFBA;
 }
 
-.box3 img {
+#contact #container3 .box3 img {
   width: 600px;
-}
-
-footer {
-  background-color: #3C2212;
-  color: #BFA588;
-  height: 20vh;
-  text-align: center;
-  line-height: 150px;
 }
 
 #product-header {
@@ -281,29 +273,41 @@ footer {
   height: 100vh;
 }
 
-nav {
+#product-header nav {
   width: 80%;
   margin: 0 auto;
   text-align: left;
   background-color: #FFDFBA;
 }
 
-nav .logo {
+#product-header nav .logo {
   width: 5%;
 }
 
-nav #link-product {
+#product-header nav #link-product {
   float: right;
   margin: 20px 0 0 0;
   width: 550px;
 }
 
-nav #link-product a {
+#product-header nav #link-product a {
   text-decoration: none;
   margin: 0 12px;
   padding: 10px 25px;
   color: #99633C;
   font-size: 17px;
+}
+
+#product-header #header-box img {
+  width: 30%;
+  display: block;
+  margin: 80px auto 40px auto;
+}
+
+#product-header #header-box p {
+  width: 30%;
+  text-align: center;
+  margin: auto;
 }
 
 #product-1 {
@@ -312,10 +316,26 @@ nav #link-product a {
   padding-top: 180px;
 }
 
+#product-1 .slider {
+  margin: 20px 0;
+}
+
+#product-1 .slider button {
+  display: none !important;
+}
+
 #product-2 {
   height: 100vh;
   background-color: #BF8752;
   padding-top: 180px;
+}
+
+#product-2 .slider2 {
+  margin: 20px 0;
+}
+
+#product-2 .slider2 button {
+  display: none !important;
 }
 
 #product-3 {
@@ -324,30 +344,38 @@ nav #link-product a {
   padding-top: 180px;
 }
 
+#product-3 .slider {
+  margin: 20px 0;
+}
+
+#product-3 .slider button {
+  display: none !important;
+}
+
 #notice-header {
   padding-top: 100px;
   background-color: #FFDFBA;
   height: 100vh;
 }
 
-nav {
+#notice-header nav {
   width: 80%;
   margin: 0 auto;
   text-align: left;
   background-color: #FFDFBA;
 }
 
-nav .logo {
+#notice-header nav .logo {
   width: 5%;
 }
 
-nav #link-notice {
+#notice-header nav #link-notice {
   float: right;
   margin: 20px 0 0 0;
   width: 300px;
 }
 
-nav #link-notice a {
+#notice-header nav #link-notice a {
   text-decoration: none;
   margin: 0 12px;
   padding: 10px 25px;
@@ -373,24 +401,24 @@ nav #link-notice a {
   height: 100vh;
 }
 
-nav {
+#service-header nav {
   width: 80%;
   margin: 0 auto;
   text-align: left;
   background-color: #FFDFBA;
 }
 
-nav .logo {
+#service-header nav .logo {
   width: 5%;
 }
 
-nav #link-service {
+#service-header nav #link-service {
   float: right;
   margin: 20px 0 0 0;
   width: 300px;
 }
 
-nav #link-service a {
+#service-header nav #link-service a {
   text-decoration: none;
   margin: 0 12px;
   padding: 10px 25px;
@@ -404,7 +432,7 @@ nav #link-service a {
   padding-top: 180px;
 }
 
-#container4 {
+#service-1 #container4 {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -414,13 +442,13 @@ nav #link-service a {
   margin: 0 auto;
 }
 
-.box4 #service-box1 {
+#service-1 #container4 .box4 #service-box1 {
   width: 400px;
   height: 400px;
   background-color: #653810;
 }
 
-.box4 p {
+#service-1 #container4 .box4 p {
   font-size: 20px;
   width: 500px;
   height: 400px;
@@ -433,7 +461,7 @@ nav #link-service a {
   padding-top: 180px;
 }
 
-#container5 {
+#service-2 #container5 {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -443,13 +471,13 @@ nav #link-service a {
   margin: 0 auto;
 }
 
-.box5 #service-box2 {
+#service-2 #container5 .box5 #service-box2 {
   width: 400px;
   height: 400px;
   background-color: #FFDFBA;
 }
 
-.box5 p {
+#service-2 #container5 .box5 p {
   font-size: 20px;
   width: 500px;
   height: 400px;
@@ -462,7 +490,7 @@ nav #link-service a {
   padding-top: 180px;
 }
 
-#container6 {
+#service-3 #container6 {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -472,16 +500,24 @@ nav #link-service a {
   margin: 0 auto;
 }
 
-.box6 #service-box3 {
+#service-3 #container6 .box6 #service-box3 {
   width: 400px;
   height: 400px;
   background-color: #E1AC73;
 }
 
-.box6 p {
+#service-3 #container6 .box6 p {
   font-size: 20px;
   width: 500px;
   height: 400px;
   color: #E1AC73;
+}
+
+footer {
+  background-color: #3C2212;
+  color: #BFA588;
+  height: 20vh;
+  text-align: center;
+  line-height: 150px;
 }
 /*# sourceMappingURL=style.css.map */
