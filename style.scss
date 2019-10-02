@@ -439,15 +439,47 @@ header{
 
 // 購買流程
 #notice-1{
-    height: 100vh;
+    height: 200vh;
     background-color: #E1AC73;
-    padding-top:180px; 
+    padding-top:90px; 
+    h1{
+        width: 130px;
+        margin: 0 auto;
+        color: #000;
+        font-size: 30px;
+        text-align: center;
+    }
+    article{
+        width: 700px;
+        height: 1200px;
+        margin: 0 auto;
+        margin-top:80px ;
+        main{
+            height: 200px;
+            border-radius: 10px;
+            margin-bottom:5px ;
+            background-color: #99633C;
+        }
+    }
 }
 // 購買須知
 #notice-2{
     height: 100vh;
     background-color: #99633C;
     padding-top:180px; 
+    h1{
+        width: 130px;
+        margin: 0 auto;
+        color: #000;
+        font-size: 30px;
+        text-align: center; 
+    }
+    #notice-text{
+        width: 100px;
+        margin: 0 auto;
+        height: 700px;
+        margin-top: 80px;
+    }
 }
 
 
