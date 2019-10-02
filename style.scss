@@ -296,7 +296,7 @@ header{
 
 // 商業/傢俱/其他
 #product-1{
-    height: 800vh;
+    height: 1000vh;
     background-color: #E1AC73;
     padding-top:130px;  
     .card-box{
@@ -305,7 +305,47 @@ header{
         grid-template-columns: 1fr 1fr 1fr 1fr ;
         grid-gap: 24px;
         margin: 0 auto;
-        .card{
+        .tablecard{
+            float: left;
+            width: 200px;
+            height: 200px;
+            img{
+                width: 200px;
+            }
+        }
+        .bedcard{
+            float: left;
+            width: 200px;
+            height: 200px;
+            img{
+                width: 200px;
+            }
+        }
+        .businesscard{
+            float: left;
+            width: 200px;
+            height: 200px;
+            img{
+                width: 200px;
+            }
+        }
+        .cabinetcard{
+            float: left;
+            width: 200px;
+            height: 200px;
+            img{
+                width: 200px;
+            }
+        }
+        .doorcard{
+            float: left;
+            width: 200px;
+            height: 200px;
+            img{
+                width: 200px;
+            }
+        }
+        .othercard{
             float: left;
             width: 200px;
             height: 200px;

@@ -311,7 +311,7 @@ header #container1 .box1 img {
 }
 
 #product-1 {
-  height: 800vh;
+  height: 1000vh;
   background-color: #E1AC73;
   padding-top: 130px;
 }
@@ -326,13 +326,63 @@ header #container1 .box1 img {
   margin: 0 auto;
 }
 
-#product-1 .card-box .card {
+#product-1 .card-box .tablecard {
   float: left;
   width: 200px;
   height: 200px;
 }
 
-#product-1 .card-box .card img {
+#product-1 .card-box .tablecard img {
+  width: 200px;
+}
+
+#product-1 .card-box .bedcard {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+#product-1 .card-box .bedcard img {
+  width: 200px;
+}
+
+#product-1 .card-box .businesscard {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+#product-1 .card-box .businesscard img {
+  width: 200px;
+}
+
+#product-1 .card-box .cabinetcard {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+#product-1 .card-box .cabinetcard img {
+  width: 200px;
+}
+
+#product-1 .card-box .doorcard {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+#product-1 .card-box .doorcard img {
+  width: 200px;
+}
+
+#product-1 .card-box .othercard {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+#product-1 .card-box .othercard img {
   width: 200px;
 }
 
