@@ -498,7 +498,7 @@ header #container1 .box1 img {
 }
 
 #notice-2 {
-  height: 100vh;
+  height: 150vh;
   background-color: #99633C;
   padding-top: 180px;
 }
@@ -509,6 +509,13 @@ header #container1 .box1 img {
   color: #000;
   font-size: 30px;
   text-align: center;
+}
+
+#notice-2 #notice-text {
+  width: 700px;
+  margin: 0 auto;
+  height: 700px;
+  margin-top: 80px;
 }
 
 #service-header {
