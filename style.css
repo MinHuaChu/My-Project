@@ -470,15 +470,45 @@ header #container1 .box1 img {
 }
 
 #notice-1 {
-  height: 100vh;
+  height: 200vh;
   background-color: #E1AC73;
-  padding-top: 180px;
+  padding-top: 90px;
+}
+
+#notice-1 h1 {
+  width: 130px;
+  margin: 0 auto;
+  color: #000;
+  font-size: 30px;
+  text-align: center;
+}
+
+#notice-1 article {
+  width: 700px;
+  height: 1200px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+#notice-1 article main {
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  background-color: #99633C;
 }
 
 #notice-2 {
   height: 100vh;
   background-color: #99633C;
   padding-top: 180px;
+}
+
+#notice-2 h1 {
+  width: 130px;
+  margin: 0 auto;
+  color: #000;
+  font-size: 30px;
+  text-align: center;
 }
 
 #service-header {
