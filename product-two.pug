@@ -1,10 +1,14 @@
-<!DOCTYPE html>
+mixin wood(img,text)
+    div(class="woodcard")
+        img(src="wood/"+img+".jpg", alt="")
+        p= text
+
 html(lang="zh")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title 佳源木業｜營業項目
+        title 佳源木業｜木材/木箱/棧板
         link(rel="stylesheet", href="style.css")
     body
         //- 導入頁面
@@ -16,13 +20,23 @@ html(lang="zh")
                 div(class="link-product")
                         a(href="product-one.html") 商業/傢俱/其他
                         a(href="product-two.html") 木材/木箱/棧板
-                        a(href="#") 商品實拍
+                        a(href="#product-3") 商品實拍
             //- 頁首內容
             div(class="header-box")
                 img(src="img/product.png", alt="")
                 p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat architecto ipsam deleniti doloribus et debitis? Incidunt labore omnis placeat exercitationem necessitatibus cum ut, velit cumque! Sint quae amet facilis nostrum!
         
         //- 產品
-        include product-one.html
+        section(id="product-2")
+            div(class="card-box")
+                +wood("wood01","木材")
+                +wood("wood02","木材")
+                +wood("wood03","木材")
+                +wood("wood04","木材")
+                +wood("wood05","木材")
+                +wood("wood06","木材")
+                +wood("wood07","木材")
+                +wood("wood08","木材")
+        
 
         include footer 

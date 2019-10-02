@@ -267,30 +267,30 @@ header #container1 .box1 img {
   width: 600px;
 }
 
-#product-header {
+.product-header {
   padding-top: 100px;
   background-color: #FFDFBA;
   height: 100vh;
 }
 
-#product-header nav {
+.product-header nav {
   width: 80%;
   margin: 0 auto;
   text-align: left;
   background-color: #FFDFBA;
 }
 
-#product-header nav .logo {
+.product-header nav .logo {
   width: 5%;
 }
 
-#product-header nav #link-product {
+.product-header nav .link-product {
   float: right;
   margin: 20px 0 0 0;
   width: 550px;
 }
 
-#product-header nav #link-product a {
+.product-header nav .link-product a {
   text-decoration: none;
   margin: 0 12px;
   padding: 10px 25px;
@@ -298,13 +298,13 @@ header #container1 .box1 img {
   font-size: 17px;
 }
 
-#product-header #header-box img {
+.product-header .header-box img {
   width: 30%;
   display: block;
   margin: 80px auto 40px auto;
 }
 
-#product-header #header-box p {
+.product-header .header-box p {
   width: 30%;
   text-align: center;
   margin: auto;
@@ -387,31 +387,55 @@ header #container1 .box1 img {
 }
 
 #product-2 {
-  height: 100vh;
+  height: 500vh;
   background-color: #BF8752;
   padding-top: 180px;
 }
 
-#product-2 .slider {
-  margin: 20px 0;
+#product-2 .card-box {
+  width: 136vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 24px;
+  margin: 0 auto;
 }
 
-#product-2 .slider button {
-  display: none !important;
+#product-2 .card-box .woodcard {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+#product-2 .card-box .woodcard img {
+  width: 200px;
 }
 
 #product-3 {
-  height: 100vh;
+  height: 500vh;
   background-color: #99633C;
   padding-top: 180px;
 }
 
-#product-3 .slider {
-  margin: 20px 0;
+#product-3 .card-box {
+  width: 136vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 24px;
+  margin: 0 auto;
 }
 
-#product-3 .slider button {
-  display: none !important;
+#product-3 .card-box .storecard {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+#product-3 .card-box .storecard img {
+  width: 200px;
 }
 
 #notice-header {

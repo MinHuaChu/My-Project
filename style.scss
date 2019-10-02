@@ -253,7 +253,7 @@ header{
 //------product.pug
 
 // 頁首區塊
-#product-header{
+.product-header{
     padding-top: 100px;
     background-color: #FFDFBA;
     height: 100vh;
@@ -266,7 +266,7 @@ header{
         .logo{
             width: 5%;
         }
-        #link-product{
+        .link-product{
             float:right;
             margin: 20px 0 0 0;
             width: 550px;
@@ -280,7 +280,7 @@ header{
         }
     }
     // 頁首內容
-    #header-box{
+    .header-box{
         img{
             width: 30%;
             display: block;
@@ -359,30 +359,48 @@ header{
 
 // 木材/木箱/棧板
 #product-2{
-    height: 100vh;
+    height: 500vh;
     background-color: #BF8752;
     padding-top:180px; 
-    .slider {
-        margin: 20px 0;
-      }
+    .card-box{
+        width: 136vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-gap: 24px;
+        margin: 0 auto;
+        .woodcard{
+            float: left;
+            width: 200px;
+            height: 200px;
+            img{
+                width: 200px;
+            }
+        }
+    }
       
-    .slider button {
-        display: none !important;
-      }
+    
 }
 
 // 商品實拍
 #product-3{
-    height: 100vh;
+    height: 500vh;
     background-color: #99633C;
     padding-top: 180px;
-    .slider{
-        margin: 20px 0;
-      }
-      
-    .slider button {
-        display: none !important;
-      }
+    .card-box{
+        width: 136vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-gap: 24px;
+        margin: 0 auto;
+        .storecard{
+            float: left;
+            width: 200px;
+            height: 200px;
+            img{
+                width: 200px;
+            }
+        }
+    }
 }
 
 
