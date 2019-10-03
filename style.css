@@ -515,9 +515,16 @@ header #container1 .box1 img {
 
 #notice-1 article main {
   height: 200px;
+  width: 700px;
   border-radius: 10px;
   margin-bottom: 5px;
   background-color: #99633C;
+}
+
+#notice-1 article main p {
+  width: 400px;
+  float: right;
+  margin-top: 40px;
 }
 
 #notice-2 {
