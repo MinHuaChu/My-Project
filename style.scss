@@ -1,8 +1,19 @@
+@mixin title {
+    font-size: 30px;
+    width: 150px;
+    text-align: center;
+    color:black;
+    margin: 0 auto 150px auto;
+    padding-top:100px; 
+
+}
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border:1px solid rgba(0,0,0,1);
+    border:0px solid rgba(0,0,0,1);
     font-family: 微軟正黑體;
 }
 
@@ -159,10 +170,10 @@ header{
 #service{
     height: 90vh;
     background-color: #99633C;
-    padding-top:100px; 
+    padding-top:180px; 
     #big2{
         width: 1100px;
-        margin: 0 auto 70px auto;
+        margin: 0 auto 0 auto;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 100px;
@@ -205,20 +216,6 @@ header{
                 width: 100%;
             }
         }
-    }
-    // 提供服務-按鈕
-    a{
-        display:block;
-        width: 160px;
-        font-size: 28px;
-        color: #FFDFBA;
-        border: 0px solid #000;
-        border-radius: 10px;
-        background-color:#653810;
-        padding: 10px 20px;
-        text-decoration: none;
-        text-align: center;
-        margin: auto;;
     }
 }
 
@@ -264,7 +261,7 @@ header{
         text-align: left;
         background-color: #FFDFBA;
         .logo{
-            width: 5%;
+            width: 6%;
         }
         .link-product{
             float:right;
@@ -296,59 +293,61 @@ header{
 
 // 商業/傢俱/其他
 #product-1{
-    height: 1000vh;
+    height: 1330vh;
     background-color: #E1AC73;
-    padding-top:130px;  
+    .title{
+        @include title;
+    }
     .card-box{
-        width: 136vh;
+        width: 120vh;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr ;
         grid-gap: 24px;
         margin: 0 auto;
         .tablecard{
             float: left;
-            width: 200px;
-            height: 200px;
+            width: 250px;
+            height: 280px;
             img{
                 width: 200px;
             }
         }
         .bedcard{
             float: left;
-            width: 200px;
-            height: 200px;
+            width: 250px;
+            height: 280px;
             img{
                 width: 200px;
             }
         }
         .businesscard{
             float: left;
-            width: 200px;
-            height: 200px;
+            width: 250px;
+            height: 280px;
             img{
                 width: 200px;
             }
         }
         .cabinetcard{
             float: left;
-            width: 200px;
-            height: 200px;
+            width: 250px;
+            height: 280px;
             img{
                 width: 200px;
             }
         }
         .doorcard{
             float: left;
-            width: 200px;
-            height: 200px;
+            width: 250px;
+            height: 280px;
             img{
                 width: 200px;
             }
         }
         .othercard{
             float: left;
-            width: 200px;
-            height: 200px;
+            width: 250px;
+            height: 280px;
             img{
                 width: 200px;
             }
@@ -359,19 +358,21 @@ header{
 
 // 木材/木箱/棧板
 #product-2{
-    height: 500vh;
+    height: 150vh;
     background-color: #BF8752;
-    padding-top:180px; 
+    h1{
+        @include title;
+    }
     .card-box{
-        width: 136vh;
+        width: 120vh;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr ;
         grid-gap: 24px;
         margin: 0 auto;
         .woodcard{
             float: left;
-            width: 200px;
-            height: 200px;
+            width: 250px;
+            height: 350px;
             img{
                 width: 200px;
             }
@@ -383,19 +384,22 @@ header{
 
 // 商品實拍
 #product-3{
-    height: 500vh;
+    height: 730vh;
     background-color: #99633C;
-    padding-top: 180px;
+    h1{
+        @include title;
+    }
     .card-box{
-        width: 136vh;
+        width: 120vh;
+        height: 700vh;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr ;
         grid-gap: 24px;
         margin: 0 auto;
         .storecard{
             float: left;
-            width: 200px;
-            height: 200px;
+            width: 250px;
+            height: 380px;
             img{
                 width: 200px;
             }
@@ -420,7 +424,7 @@ header{
         text-align: left;
         background-color: #FFDFBA;
         .logo{
-            width: 5%;
+            width: 6%;
         }
         #link-notice{
             float:right;
@@ -477,8 +481,18 @@ header{
     #notice-text{
         width: 700px;
         margin: 0 auto;
-        height: 700px;
+        height: 750px;
         margin-top: 80px;
+        padding-top:36px; ;
+        background-color: #E1AC73;
+        border-radius: 15px;
+        ul{
+            width: 500px;
+            margin: 36px auto 0 auto;
+            li{
+                margin: 10px 0;
+            }
+        }
     }
 }
 

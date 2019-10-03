@@ -4,7 +4,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border: 1px solid black;
+  border: 0px solid black;
   font-family: 微軟正黑體;
 }
 
@@ -168,12 +168,12 @@ header #container1 .box1 img {
 #service {
   height: 90vh;
   background-color: #99633C;
-  padding-top: 100px;
+  padding-top: 180px;
 }
 
 #service #big2 {
   width: 1100px;
-  margin: 0 auto 70px auto;
+  margin: 0 auto 0 auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
@@ -226,20 +226,6 @@ header #container1 .box1 img {
   width: 100%;
 }
 
-#service a {
-  display: block;
-  width: 160px;
-  font-size: 28px;
-  color: #FFDFBA;
-  border: 0px solid #000;
-  border-radius: 10px;
-  background-color: #653810;
-  padding: 10px 20px;
-  text-decoration: none;
-  text-align: center;
-  margin: auto;
-}
-
 #contact {
   height: 90vh;
   background-color: #653810;
@@ -281,7 +267,7 @@ header #container1 .box1 img {
 }
 
 .product-header nav .logo {
-  width: 5%;
+  width: 6%;
 }
 
 .product-header nav .link-product {
@@ -311,13 +297,21 @@ header #container1 .box1 img {
 }
 
 #product-1 {
-  height: 1000vh;
+  height: 1330vh;
   background-color: #E1AC73;
-  padding-top: 130px;
+}
+
+#product-1 .title {
+  font-size: 30px;
+  width: 150px;
+  text-align: center;
+  color: black;
+  margin: 0 auto 150px auto;
+  padding-top: 100px;
 }
 
 #product-1 .card-box {
-  width: 136vh;
+  width: 120vh;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
@@ -328,8 +322,8 @@ header #container1 .box1 img {
 
 #product-1 .card-box .tablecard {
   float: left;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 280px;
 }
 
 #product-1 .card-box .tablecard img {
@@ -338,8 +332,8 @@ header #container1 .box1 img {
 
 #product-1 .card-box .bedcard {
   float: left;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 280px;
 }
 
 #product-1 .card-box .bedcard img {
@@ -348,8 +342,8 @@ header #container1 .box1 img {
 
 #product-1 .card-box .businesscard {
   float: left;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 280px;
 }
 
 #product-1 .card-box .businesscard img {
@@ -358,8 +352,8 @@ header #container1 .box1 img {
 
 #product-1 .card-box .cabinetcard {
   float: left;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 280px;
 }
 
 #product-1 .card-box .cabinetcard img {
@@ -368,8 +362,8 @@ header #container1 .box1 img {
 
 #product-1 .card-box .doorcard {
   float: left;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 280px;
 }
 
 #product-1 .card-box .doorcard img {
@@ -378,8 +372,8 @@ header #container1 .box1 img {
 
 #product-1 .card-box .othercard {
   float: left;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 280px;
 }
 
 #product-1 .card-box .othercard img {
@@ -387,13 +381,21 @@ header #container1 .box1 img {
 }
 
 #product-2 {
-  height: 500vh;
+  height: 150vh;
   background-color: #BF8752;
-  padding-top: 180px;
+}
+
+#product-2 h1 {
+  font-size: 30px;
+  width: 150px;
+  text-align: center;
+  color: black;
+  margin: 0 auto 150px auto;
+  padding-top: 100px;
 }
 
 #product-2 .card-box {
-  width: 136vh;
+  width: 120vh;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
@@ -404,8 +406,8 @@ header #container1 .box1 img {
 
 #product-2 .card-box .woodcard {
   float: left;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 350px;
 }
 
 #product-2 .card-box .woodcard img {
@@ -413,13 +415,22 @@ header #container1 .box1 img {
 }
 
 #product-3 {
-  height: 500vh;
+  height: 730vh;
   background-color: #99633C;
-  padding-top: 180px;
+}
+
+#product-3 h1 {
+  font-size: 30px;
+  width: 150px;
+  text-align: center;
+  color: black;
+  margin: 0 auto 150px auto;
+  padding-top: 100px;
 }
 
 #product-3 .card-box {
-  width: 136vh;
+  width: 120vh;
+  height: 700vh;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
@@ -430,8 +441,8 @@ header #container1 .box1 img {
 
 #product-3 .card-box .storecard {
   float: left;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 380px;
 }
 
 #product-3 .card-box .storecard img {
@@ -452,7 +463,7 @@ header #container1 .box1 img {
 }
 
 #notice-header nav .logo {
-  width: 5%;
+  width: 6%;
 }
 
 #notice-header nav #link-notice {
@@ -514,8 +525,20 @@ header #container1 .box1 img {
 #notice-2 #notice-text {
   width: 700px;
   margin: 0 auto;
-  height: 700px;
+  height: 750px;
   margin-top: 80px;
+  padding-top: 36px;
+  background-color: #E1AC73;
+  border-radius: 15px;
+}
+
+#notice-2 #notice-text ul {
+  width: 500px;
+  margin: 36px auto 0 auto;
+}
+
+#notice-2 #notice-text ul li {
+  margin: 10px 0;
 }
 
 #service-header {
