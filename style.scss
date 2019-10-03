@@ -439,6 +439,19 @@ header{
             }
         }
     }
+    // 頁首內容
+    #problem-box{
+        img{
+            width: 25%;
+            display: block;
+            margin: 80px auto 40px auto;
+        }
+        p{
+            width: 30%;
+            text-align: center;
+            margin: auto;
+        }
+    }
 }
 
 // 購買流程

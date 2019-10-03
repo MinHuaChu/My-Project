@@ -480,6 +480,18 @@ header #container1 .box1 img {
   font-size: 17px;
 }
 
+#notice-header #problem-box img {
+  width: 25%;
+  display: block;
+  margin: 80px auto 40px auto;
+}
+
+#notice-header #problem-box p {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+}
+
 #notice-1 {
   height: 200vh;
   background-color: #E1AC73;
